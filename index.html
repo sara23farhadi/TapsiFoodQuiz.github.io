@@ -6,12 +6,22 @@
     <link href="https://cdn.jsdelivr.net/npm/vazirmatn@33.003.0/dist/font-face.css" rel="stylesheet" />
     <style>
       body {
-        background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-cute-funny-fast-food_71374-1259.jpg?w=826');
+        background-image:
+        /* linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), */
+        url('https://img.freepik.com/premium-vector/seamless-pattern-cute-funny-fast-food_71374-1259.jpg');
         background-repeat: repeat;
-        background-size: 100px;
+        background-size: 400px, auto;
+        background-position: top left;
         font-family: 'Vazirmatn', sans-serif;
         direction: rtl;
-        background: #fff8f1;
+        padding: 2rem;
+        max-width: 700px;
+        margin: auto;
+      }
+      #app {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
         padding: 2rem;
         max-width: 700px;
         margin: auto;
