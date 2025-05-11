@@ -3,15 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>فودولوژی</title>
-    <title>اگه غذا بودی، چی بودی؟</title>
+    <link href="https://cdn.jsdelivr.net/npm/vazirmatn@33.003.0/dist/font-face.css" rel="stylesheet" />
     <style>
-      body { font-family: sans-serif; direction: rtl; background: #fff8f1; padding: 2rem; max-width: 700px; margin: auto; }
+      body {
+        font-family: 'Vazirmatn', sans-serif;
+        direction: rtl;
+        background: #fff8f1;
+        padding: 2rem;
+        max-width: 700px;
+        margin: auto;
+      }
       .question { margin-bottom: 2rem; }
       .question h2 { font-size: 1.2rem; margin-bottom: 1rem; }
-      .option { margin: 0.5rem 0; cursor: pointer; padding: 0.5rem; border-radius: 5px; background: #f4f4f4; }
+      .option {
+        margin: 0.5rem 0;
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 5px;
+        background: #f4f4f4;
+        transition: background 0.2s ease;
+      }
       .option:hover { background: #ddd; }
-      #result { font-size: 1.3rem; font-weight: bold; text-align: center; margin-top: 2rem; }
-      button { padding: 0.5rem 1rem; font-size: 1rem; margin-top: 1rem; }
+      #result {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
     </style>
   </head>
   <body>
